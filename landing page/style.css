@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Poppins&display=swap');
+
+
+body, html {
+  height: 100%;
+  color:white;
+  font-family: 'Crimson Text', serif;
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  scroll-behavior: smooth;
+
+}
+
+
+  /* header */
+
+
+header {
+background-image: url("https://images.pexels.com/photos/4355348/pexels-photo-4355348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); 
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+
+
+
+
+nav {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:90%;
+  margin:auto;
+  min-height:10vh;
+    text-transform:uppercase;
+
+  
+}
+
+.nav-links {
+  display:flex;
+ justify-content:space-between;
+  list-style:none;
+  
+
+  
+}
+
+.nav-links li {
+  padding:1rem;
+}
+
+.nav-links a {
+  color:white;
+  text-decoration:none;
+}
+
+.nav-links, h2 {
+  
+  flex:1;
+  
+}
+
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 4rem;
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:10;
+}
+
+
+
+
+  /* main*/
+
+
+main {
+    height: 100%;
+   width: 100%;
+  background:#67382b;
+  
+
+
+ 
+}
+
+main h1 {
+
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 4rem;
+    text-align:center;
+    padding-top:50px;
+
+
+
+}
+
+div {
+  padding:20px;
+}
+
+.left {
+  float:left;
+  width:50%;
+  
+}
+
+.right {
+  float:right;
+  width:50%;
+}
+
+p {
+  line-height:200%;;
+  text-align:center;
+  
+}
+
+  /* footer*/
+
+
+footer {
+    height: 100%;
+   width: 100%;
+   background-image: url("https://images.unsplash.com/photo-1571769267292-e24dfadebbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+footer h1 {
+
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 4rem;
+  text-align:center;
+  padding-top:50px;
+
+}
+
+
